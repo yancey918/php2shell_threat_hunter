@@ -1,5 +1,15 @@
 # php2shell_threat_hunter
 PHP2Shell 威脅獵殺腳本生成 Prompt 模板
+```
+# 使用方式
+chmod +x php2shell_threat_hunter.sh
+./php2shell_threat_hunter.sh
+
+Note: 若有CRITICAL再將產出的logs丟給AI分析是否為誤判
+```
+
+<img width="588" height="513" alt="image" src="https://github.com/user-attachments/assets/9650568a-75cf-4d6d-ab38-d48cfb3caf0f" />
+
 
 ```
 PHP2Shell 威脅獵殺腳本生成 Prompt 模板
