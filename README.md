@@ -5,7 +5,8 @@ PHP2Shell 威脅獵殺腳本生成 Prompt 模板
 chmod +x php2shell_threat_hunter.sh
 ./php2shell_threat_hunter.sh
 
-Note: 若有CRITICAL再將產出的logs丟給AI分析是否為誤判
+Note1: 若有CRITICAL再將產出的logs丟給AI分析是否為誤判
+Note2: 網路上大多只提到 php.ini 設為 memory_limit = -1 , 但未說明 cgroup 邊界如何設定
 ```
 
 <img width="588" height="513" alt="image" src="https://github.com/user-attachments/assets/9650568a-75cf-4d6d-ab38-d48cfb3caf0f" />
